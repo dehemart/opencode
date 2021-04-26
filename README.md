@@ -34,4 +34,18 @@ docker exec it ID_DO_CONTAINER /bin/sh
 ```
 
 #### Comandos opencode
-Help: `opencode -h`
+Commands:
+```shell
+opencode clean                                       # Limpa o cache de arquivos estáticos
+opencode components                                  # Listagem (opencode components list) ou instalação de componentes(opencode components install nome)
+opencode configure API_KEY PASSWORD THEME_ID         # Configura o tema que sera modificado
+opencode download FILE                               # Baixa o arquivo informado ou todos se FILE for omitido
+opencode help [COMMAND]                              # Describe available commands or one specific command
+opencode list                                        # Lista todos os temas da loja
+opencode new API_KEY PASSWORD THEME_NAME THEME_BASE  # Cria um novo tema com o nome informado
+opencode open                                        # Abre a loja no navegador
+opencode rm FILE                                     # Remove um arquivo do tema
+opencode systeminfo                                  # Mostra informações do sistema
+opencode upload FILE                                 # Sobe o arquivo informado ou todos se FILE for omitido
+opencode watch                                       # Baixa e sobe um arquivo sempre que ele for salvo
+```
